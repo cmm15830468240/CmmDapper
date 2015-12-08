@@ -1,0 +1,8 @@
+E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\DapperConsole.exe
+E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\DapperConsole.pdb
+E:\Dapper相关\DapperConsole\DapperConsole\obj\Debug\DapperConsole.exe
+E:\Dapper相关\DapperConsole\DapperConsole\obj\Debug\DapperConsole.pdb
+E:\Dapper相关\DapperConsole\DapperConsole\obj\Debug\DapperConsole.csprojResolveAssemblyReference.cache
+E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\DapperConsole.exe.config
+E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\Dapper.dll
+E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\Dapper.pdb
