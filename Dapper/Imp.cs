@@ -88,7 +88,7 @@ namespace Dapper
         /// <param name="entity"></param>
         /// <param name="trans"></param>
         /// <returns></returns>
-        public bool DeleteAll<T>(T entity, DbTransaction trans = null) where T : class
+        public bool DeleteAll<T>(DbTransaction trans = null) where T : class
         {
             bool delRes = false;
             using (DbConnection dbCon = DbCon.GetSqlCon())
@@ -111,10 +111,28 @@ namespace Dapper
             T entity = new T();
             using (DbConnection dbCon = DbCon.GetSqlCon())
             {
-                entity = dbCon.Query(selSql, parms, trans).SingleOrDefault();
+                entity = dbCon.Query<T>(selSql, parms, trans).SingleOrDefault();
             }
             return entity ?? new T();
         }
+
+        /// <summary>
+        /// 跟据主键查询实体数据
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="key"></param>
+        /// <param name="trans"></param>
+        /// <returns></returns>
+        public T Get<T>(int key, DbTransaction trans = null) where T : class, new()
+        {
+            T entity = new T();
+            using (DbConnection dbCon = DbCon.GetSqlCon())
+            {
+                entity = dbCon.Get<T>(key, trans);
+            }
+            return entity ?? new T();
+        }
+
 
         /// <summary>
         /// 根据Sql查询单表实体列表数据

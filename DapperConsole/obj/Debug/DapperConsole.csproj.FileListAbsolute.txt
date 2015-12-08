@@ -6,3 +6,11 @@ E:\Dapper相关\DapperConsole\DapperConsole\obj\Debug\DapperConsole.csprojResolv
 E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\DapperConsole.exe.config
 E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\Dapper.dll
 E:\Dapper相关\DapperConsole\DapperConsole\bin\Debug\Dapper.pdb
+D:\cmm\MyDapper\trunk\DapperConsole\obj\Debug\DapperConsole.csprojResolveAssemblyReference.cache
+D:\cmm\MyDapper\trunk\DapperConsole\bin\Debug\DapperConsole.exe.config
+D:\cmm\MyDapper\trunk\DapperConsole\bin\Debug\DapperConsole.exe
+D:\cmm\MyDapper\trunk\DapperConsole\bin\Debug\DapperConsole.pdb
+D:\cmm\MyDapper\trunk\DapperConsole\bin\Debug\Dapper.dll
+D:\cmm\MyDapper\trunk\DapperConsole\bin\Debug\Dapper.pdb
+D:\cmm\MyDapper\trunk\DapperConsole\obj\Debug\DapperConsole.exe
+D:\cmm\MyDapper\trunk\DapperConsole\obj\Debug\DapperConsole.pdb

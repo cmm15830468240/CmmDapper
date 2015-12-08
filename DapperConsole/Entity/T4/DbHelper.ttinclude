@@ -326,7 +326,7 @@
 <#+
 	public class DbCon
 	{
-		public static readonly string ConnectionString=	 @"Data Source=172.16.31.10;Database=TCInterVacationOVDResource;User ID=TCInterVacation;Password=TC#In(t*e#r2Va)cat^ion;" ;
+		public static readonly string ConnectionString=	 @"Data Source=CHENMM\DBCHEN;Integrated Security=False;User ID=sa;Password=891026;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;" ;
 		//public static readonly string ConnectionString=	 @"Data Source=172.16.31.10,1433;Database=TCInterVacationResource;User ID=TCInterVacation;Password=TC#In(t*e#r2Va)cat^ion";
 	}
 #>
